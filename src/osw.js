@@ -10,7 +10,6 @@
  */
 function divideNumbers(string){
 
-   
    // step 1
    var result = string.split("+")
    
