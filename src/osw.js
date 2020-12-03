@@ -1,5 +1,5 @@
 /*
-    String.prototype.split() divide un objeto de tipo String en un array mediante la separacion de la cadena en subcadenas.
+   String.prototype.split() divide un objeto de tipo String en un array mediante la separacion de la cadena en subcadenas.
 */
 
 /**
