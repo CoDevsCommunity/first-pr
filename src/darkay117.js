@@ -12,6 +12,11 @@
     let newFriendsArrived = ['Juan Carlos', 'Victor josé', 'Daniela josé'];
 
     if(newFriendsArrived.length > 0) {
-        friendsInParty.push(newFriendsArrived)
-        console.log(`Tus amigos ${newFriendsArrived} están aqui y ahora estan todos aqui!`)
-    }
+        function PushFriends(already, arrived) {
+        already.push(arrived)
+        console.log(`Tus amigos ${arrived} están aqui y ahora estan todos aqui!`)
+    }    
+    PushFriends(friendsInParty, newFriendsArrived);
+}
+
+
